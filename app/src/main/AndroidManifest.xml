@@ -12,11 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.JavaKotlin"
         tools:targetApi="31">
-        <activity
-            android:name=".FormularioProdutoActivity"
-            android:exported="false"
-            android:label="@string/title_activity_formulario_produto"
-            android:theme="@style/Theme.JavaKotlin" />
+        <activity android:name=".FormularioProdutoActivity"/>
+
         <activity
             android:name=".MainActivity"
             android:exported="true"

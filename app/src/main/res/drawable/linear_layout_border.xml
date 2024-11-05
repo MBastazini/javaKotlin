@@ -1,0 +1,13 @@
+<!-- res/drawable/linear_layout_border.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Cor de fundo interna -->
+    <solid android:color="@android:color/transparent" />
+
+    <!-- Configuração da borda -->
+    <stroke
+        android:width="2dp"
+        android:color="@color/teal_700" />      <!-- Cor da borda -->
+
+    <!-- Cantos arredondados, se desejado -->
+    <corners android:radius="8dp" />
+</shape>
